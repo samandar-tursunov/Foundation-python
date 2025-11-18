@@ -88,3 +88,23 @@
 # n = int(input("n = "))
 # for i in range(n+1):
 #     print(str(i)*i)
+
+#14 Paralellogramm
+# n = int(input("n = "))
+# for i in range(n+1):
+#     print(i*" ", n*"*")
+    
+#15 Rectangular shape
+#*****
+#*   *
+#*   *
+#*   *
+#*****
+# n = int(input("n = "))
+# for i in range(n):
+#     print("\n")
+#     if i==0 or i==n-1:
+#         print(n*"*", end="")
+#     else:
+#         print("*"+(n-2)*" ", end="*")
+    
