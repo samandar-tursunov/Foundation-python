@@ -137,4 +137,16 @@
 #     print(" "*(i-1) + "*"*5)
 
     
+#19 Unusual parallelogram
+# n = 5
+# for i in range(n,0, -1):
+#     if i == n or i == 1:
+#         print(i*" " + "*"*n)
+#     else:
+#         print(i*" " + "*" + (n-2)*" " + "*")
 
+#20 Triangle
+# n = 5
+# for i in range(n+1):
+#     print(" "*(n-i) + "* "*i)
+   
