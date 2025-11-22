@@ -107,4 +107,34 @@
 #         print(n*"*", end="")
 #     else:
 #         print("*"+(n-2)*" ", end="*")
+
+#16
+# n = 5
+# for i in range(1,n+1):
+#     print("-"*i + "*" + "+"*(n-1))
+#     n-=1
+
+#17 * star
+# n = 5
+# for i in range(n):
+#     for j in range(n):
+#        if i ==j or j == n - i -1:
+#            print("*", end = " ")
+#        else:
+#            print(" ", end = " ")
+#     print()
+
+# 2nd option
+# for i in range(n):
+#     line = [" "] * n
+#     line[i] = "*"
+#     line[n - i - 1] = "*"
+#     print("".join(line))
+
+#18 inverted parallelogram
+# n = 5
+# for i in range(n,0,-1):
+#     print(" "*(i-1) + "*"*5)
+
     
+
